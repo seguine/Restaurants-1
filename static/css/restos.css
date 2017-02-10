@@ -1,0 +1,63 @@
+/**** PAGE PRINCIPALE ****/
+body {
+	background-color:beige;
+	height:100%;
+}
+
+/**** SLIDER ****/
+#logo {
+	position: absolute;
+	top:0;
+}
+
+/**** RECHERCHE ****/
+#navig {
+	margin-top: 280px;
+	margin-bottom:25px;
+	text-align: center;
+}
+
+h2 {
+	color: #F96816;
+	font-size: 20pt;
+	font-family:fantasy;
+}
+
+/**** RESULTATS ****/
+.resto {
+	margin: auto;
+	margin-top:10px;
+	padding: 5px;
+	background-color:rgba(255,191,0, 0.3);
+}
+
+		.profile {
+			height:160px;
+		}
+
+		.infos {
+			width:200px;
+			padding-left: 30px;
+		}
+
+		.heures {
+			width:200px;
+		}
+
+		.map {
+			height:160px;
+		}
+
+/**** FOOTER ****/
+#footer {
+	position:relative;
+	bottom:0;
+	margin-top:20px;
+	width:100%;
+	background-color: #F96816;
+	height:3vw;
+	color:white;
+	padding-top:1.5%;
+	padding-bottom:0.5%;
+	text-align:center;
+	}
