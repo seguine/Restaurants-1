@@ -18,4 +18,3 @@ Qualité et présentation du document css : 30%
 Qualité, présentation et structure du code java-script : 30%
 
 test allo
-test caro2
