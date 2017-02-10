@@ -16,3 +16,5 @@ On vous demande de créer trois fichiers: restaurants.html, restaurants.css, et 
 Qualité et présentation du document html : 40%
 Qualité et présentation du document css : 30%
 Qualité, présentation et structure du code java-script : 30%
+
+test allo
