@@ -10,6 +10,27 @@ body {
 	top:0;
 }
 
+#A {
+  position:fixed;
+  margin:0 auto;
+  top:0px;
+  left:0px;
+  width:1300px;
+  height:250px;
+  overflow:hidden;
+  visibility:hidden;
+}
+
+#B {
+  cursor:default;
+  top:0px;
+  left:0px;
+  width:1300px;
+  height:250px;
+  overflow:hidden;
+}
+
+
 /**** RECHERCHE ****/
 #navig {
 	margin-top: 280px;
@@ -24,6 +45,20 @@ h2 {
 }
 
 /**** RESULTATS ****/
+
+#mytable {
+	margin: auto;
+	width:900px;
+	background-color:rgba(255,191,0, 0.3);
+}
+
+#mytable td{
+  border:1px solid blue;
+}
+#nom {
+	font-weight: bold;
+}
+
 .resto {
 	margin: auto;
 	margin-top:10px;

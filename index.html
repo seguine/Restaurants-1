@@ -2,11 +2,9 @@
 <head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Notre super liste de restaurants</title>
+  <title>Le répertoire Miam Miam</title>
 	<link href="static/css/restos.css" rel="stylesheet">
-  <link href="static/css/slider.css" rel="stylesheet">
-  <script src=“static/js/restos.js”></script>
-  <script src="static/js/restos.json"></script>
+	<script src="http://code.jquery.com/jquery-3.1.1.js"></script>
 </head>
 
 <body>
@@ -61,7 +59,7 @@
     </div>
 </div>
 
-<img id="logo" src="static/img/ottawamiam.png" />
+<img id="logo" src="static/img/miam.png" />
 <!-- FIN SLIDER -->
 
 <!-- DÉBUT NAVIGATION -->
@@ -84,10 +82,12 @@
   </select>
 
   <select>
-    <option value="all_categories">Toutes les catégories</option>
+    <option value="all_categories">Trier par Rating</option>
     <option value="catégorie1">Catégorie 1</option>
     <option value="catégorie2">Catégorie 2</option>
     <option value="catégorie3">Catégorie 3</option>
+		<option value="catégorie2">Catégorie 4</option>
+    <option value="catégorie3">Catégorie 5</option>
   </select>
 
 <input id="search" type="text" name="search" style="color:#F96816" placeholder="En particulier..."/>
@@ -95,28 +95,6 @@
 <!-- FIN NAVIGATION -->
 
 <!-- DÉBUT RESTOS -->
-  <table class="resto">
-    <tr>
-      <td><img class="profile" src="static/img/resto1.jpg" /></td>
-      <td class="infos">
-          <h4>NomDuRestaurant</h4>
-          ### NomDeRue
-          <br>Ville, Province
-          <br>###-###-####
-          <h4>www.siteweb.com</h4>
-      </td>
-      <td class="heures">
-          Lundi : 16h00 - 22:00
-          <br>Mardi : 16h00 - 22:00
-          <br>Mercredi : 16h00 - 22:00
-          <br>Jeudi : 16h00 - 22:00
-          <br>Vendredi : 16h00 - 22:00
-          <br>Samedi : 16h00 - 22:00
-          <br>Dimanche : 16h00 - 22:00
-      </td>
-      <td><img  class="map" src="static/img/map.png" /></td>
-    </tr>
-  </table>
 
   <table class="resto">
     <tr>
@@ -164,28 +142,9 @@
     </tr>
   </table>
 
-  <table class="resto">
-    <tr>
-      <td><img class="profile" src="static/img/resto1.jpg" /></td>
-      <td class="infos">
-          <h4>NomDuRestaurant</h4>
-          ### NomDeRue
-          <br>Ville, Province
-          <br>###-###-####
-          <h4>www.siteweb.com</h4>
-      </td>
-      <td class="heures">
-          Lundi : 16h00 - 22:00
-          <br>Mardi : 16h00 - 22:00
-          <br>Mercredi : 16h00 - 22:00
-          <br>Jeudi : 16h00 - 22:00
-          <br>Vendredi : 16h00 - 22:00
-          <br>Samedi : 16h00 - 22:00
-          <br>Dimanche : 16h00 - 22:00
-      </td>
-      <td><img  class="map" src="static/img/map.png" /></td>
-    </tr>
-  </table>
+<br><br>
+<div id="resultats">
+</div>
 <!-- FIN RESTOS -->
 
 <!-- DÉBUT FOOTER -->
@@ -197,6 +156,8 @@ Projet #1 © 2017 Technologies internet
 
 <!-- POUR SLIDER -->
 <script type="text/javascript">jssor_1_slider_init();</script>
+<!-- POUR RESTOS -->
+<script src="static/js/restos.json" type="text/javascript"></script>
 
 </body>
 </html>

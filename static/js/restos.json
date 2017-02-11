@@ -1,4 +1,4 @@
-[
+var obj=[
   {
     "address_components": [
       {
@@ -7052,7 +7052,7 @@
     "url": "https://maps.google.com/?cid=11389614960003086417",
     "utc_offset": -300,
     "vicinity": "330 Queen Street, Ottawa",
-    "website": "http://www.timhortons.com/ca/locator/storedirections.html?id=102564&utm_source=Google&utm_medium=Local&utm_term=ON&utm_content=Ottawa&utm_campaign=Local_Search"
+    "website": "http://www.timhortons.com/ca/"
   },
   {
     "address_components": [
@@ -12754,7 +12754,7 @@
     "url": "https://maps.google.com/?cid=2643675258908480359",
     "utc_offset": -300,
     "vicinity": "99 Rideau Street, Ottawa",
-    "website": "http://www.timhortons.com/ca/locator/storedirections.html?id=103323&utm_source=Google&utm_medium=Local&utm_term=ON&utm_content=Ottawa&utm_campaign=Local_Search"
+    "website": "http://www.timhortons.com/ca/"
   },
   {
     "address_components": [
@@ -17167,7 +17167,7 @@
     "url": "https://maps.google.com/?cid=15593356075203521495",
     "utc_offset": -300,
     "vicinity": "585 Montreal Road, Ottawa",
-    "website": "http://www.timhortons.com/ca/locator/storedirections.html?id=101628&utm_source=Google&utm_medium=Local&utm_term=ON&utm_content=Ottawa&utm_campaign=Local_Search"
+    "website": "http://www.timhortons.com/ca/"
   },
   {
     "address_components": [
@@ -17866,7 +17866,7 @@
     "url": "https://maps.google.com/?cid=7653301568286624184",
     "utc_offset": -300,
     "vicinity": "681 Montreal Road, Ottawa",
-    "website": "https://www.pizzahut.ca/store-details/store-R29646/pizza-hut-Ottawa?utm_term=ON&utm_medium=Local&utm_campaign=Local_Search&utm_source=Google&utm_content=Gloucester"
+    "website": "https://www.pizzahut.ca/"
   },
   {
     "address_components": [
@@ -18855,7 +18855,7 @@
     "url": "https://maps.google.com/?cid=14159751604834029473",
     "utc_offset": -300,
     "vicinity": "800 King Edward Avenue, Ottawa",
-    "website": "http://www.timhortons.com/ca/locator/storedirections.html?id=102307&utm_source=Google&utm_medium=Local&utm_term=ON&utm_content=Ottawa&utm_campaign=Local_Search"
+    "website": "http://www.timhortons.com/ca/"
   },
   {
     "address_components": [
@@ -20257,7 +20257,7 @@
     "url": "https://maps.google.com/?cid=471712944785354507",
     "utc_offset": -300,
     "vicinity": "800 Place Leigh-Capreol, Dorval",
-    "website": "http://www.marriott.com/hotels/travel/yulma-montreal-airport-marriott-in-terminal-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
+    "website": "http://www.marriott.com/"
   },
   {
     "address_components": [
@@ -20514,7 +20514,7 @@
     "url": "https://maps.google.com/?cid=17685625358862940882",
     "utc_offset": -300,
     "vicinity": "2440 Autoroute des Laurentides, Laval",
-    "website": "http://www.starwoodhotels.com/sheraton/property/overview/index.html?propertyID=858"
+    "website": "http://www.starwoodhotels.com/"
   },
   {
     "address_components": [
@@ -21081,7 +21081,7 @@
     "url": "https://maps.google.com/?cid=1080548441700738673",
     "utc_offset": -300,
     "vicinity": "2599 Boulevard Alfred Nobel, Saint-Laurent",
-    "website": "http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=6011&merchantid=seo-maps-CA-6011&sourceid=aw-cen"
+    "website": "http://www.accorhotels.com/"
   },
   {
     "address_components": [
@@ -25924,7 +25924,7 @@
     "url": "https://maps.google.com/?cid=5886035599204676812",
     "utc_offset": -300,
     "vicinity": "1240 Rue Drummond, Montréal",
-    "website": "http://www.chezcora.com/fr/restaurants/quebec/Cora-Montreal-Centre?utm_source=googlemaps&utm_medium=montreal-centre&utm_campaign=website"
+    "website": "http://www.chezcora.com/fr/"
   },
   {
     "address_components": [
@@ -35735,7 +35735,7 @@
     "url": "https://maps.google.com/?cid=1832454081424150343",
     "utc_offset": -300,
     "vicinity": "1008 Rue Clark, Montréal",
-    "website": "http://www.globeater.com/view-restaurant/?restaurant_name=Restaurant+Ruby+Rouge&id=859"
+    "website": "http://www.globeater.com/"
   },
   {
     "address_components": [
@@ -36602,7 +36602,7 @@
     "url": "https://maps.google.com/?cid=13849695206165872253",
     "utc_offset": -300,
     "vicinity": "2656 Boulevard Daniel-Johnson, Laval",
-    "website": "http://www.timhortons.com/ca/locator/storedirections.html?id=102719&utm_source=Google&utm_medium=Local&utm_term=QC&utm_content=Laval&utm_campaign=Local_Search"
+    "website": "http://www.timhortons.com/ca/"
   },
   {
     "address_components": [
@@ -38736,7 +38736,7 @@
     "url": "https://maps.google.com/?cid=5589236301904646900",
     "utc_offset": -300,
     "vicinity": "525 Bay Street, Toronto",
-    "website": "http://www.marriott.com/hotels/travel/yyzec-toronto-marriott-downtown-eaton-centre-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
+    "website": "http://www.marriott.com/"
   },
   {
     "address_components": [
@@ -39654,7 +39654,7 @@
     "url": "https://maps.google.com/?cid=11551427185279127481",
     "utc_offset": -300,
     "vicinity": "45 The Esplanade, Toronto",
-    "website": "http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=0931&merchantid=seo-maps-CA-0931&sourceid=aw-cen"
+    "website": "http://www.accorhotels.com/"
   },
   {
     "address_components": [
@@ -40310,7 +40310,7 @@
     "url": "https://maps.google.com/?cid=16886626893225514227",
     "utc_offset": -300,
     "vicinity": "3 Park Home Avenue, North York",
-    "website": "http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=0910&merchantid=seo-maps-CA-0910&sourceid=aw-cen"
+    "website": "http://www.accorhotels.com/"
   },
   {
     "address_components": [
@@ -40597,7 +40597,7 @@
     "url": "https://maps.google.com/?cid=16637483195308120440",
     "utc_offset": -300,
     "vicinity": "901 Dixon Road, Etobicoke",
-    "website": "http://www.marriott.com/hotels/travel/yyzot-toronto-airport-marriott-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2"
+    "website": "http://www.marriott.com/"
   },
   {
     "address_components": [
@@ -40938,7 +40938,7 @@
     "url": "https://maps.google.com/?cid=1093904853267186359",
     "utc_offset": -300,
     "vicinity": "3670 Hurontario Street, Mississauga",
-    "website": "http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=0841&merchantid=seo-maps-CA-0841&sourceid=aw-cen"
+    "website": "http://www.accorhotels.com/"
   },
   {
     "address_components": [
@@ -41222,7 +41222,7 @@
     "url": "https://maps.google.com/?cid=15844276603430795535",
     "utc_offset": -300,
     "vicinity": "200 Bass Pro Mills Drive, Concord",
-    "website": "http://www.accorhotels.com/lien_externe.svlt?goto=fiche_hotel&code_hotel=7157&merchantid=seo-maps-CA-7157&sourceid=aw-cen"
+    "website": "http://www.accorhotels.com/"
   },
   {
     "address_components": [
@@ -41572,7 +41572,7 @@
     "url": "https://maps.google.com/?cid=8859680448296965055",
     "utc_offset": -300,
     "vicinity": "7255 Warden Avenue, Markham",
-    "website": "http://www.montecarloinns.com/Downtown-Markham-Suites/downtown-markham"
+    "website": "http://www.montecarloinns.com/"
   },
   {
     "address_components": [
@@ -44471,7 +44471,7 @@
     "url": "https://maps.google.com/?cid=848576791758857921",
     "utc_offset": -300,
     "vicinity": "92 Peter Street, Toronto",
-    "website": "http://hiltongardeninn3.hilton.com/en/hotels/ontario/hilton-garden-inn-toronto-downtown-YYZDTGI/dining/index.html"
+    "website": "http://hiltongardeninn3.hilton.com/en/"
   },
   {
     "address_components": [
@@ -47478,7 +47478,7 @@
     "url": "https://maps.google.com/?cid=11338971946233469888",
     "utc_offset": -300,
     "vicinity": "1900 Midland Avenue, Scarborough",
-    "website": "http://www.timhortons.com/ca/locator/storedirections.html?id=102010&utm_source=Google&utm_medium=Local&utm_term=ON&utm_content=Scarborough&utm_campaign=Local_Search"
+    "website": "http://www.timhortons.com/ca/"
   },
   {
     "address_components": [
@@ -48911,7 +48911,7 @@
     "url": "https://maps.google.com/?cid=5888778567786278139",
     "utc_offset": -300,
     "vicinity": "600 King Street West, Toronto",
-    "website": "http://www.thebiermarkt.com/location-detail.php?id=2#topContent"
+    "website": "http://www.thebiermarkt.com/"
   },
   {
     "address_components": [
@@ -50284,7 +50284,7 @@
     "url": "https://maps.google.com/?cid=4376905022441262945",
     "utc_offset": -300,
     "vicinity": "515 Jarvis Street, Toronto",
-    "website": "http://www.kegsteakhouse.com/en/locations/ON/toronto/mansion-keg/"
+    "website": "http://www.kegsteakhouse.com/en"
   },
   {
     "address_components": [
@@ -58349,3 +58349,19 @@
     "website": "http://origintoronto.com/"
   }
 ]
+
+var tbl=$("<table/>").attr("id","mytable");
+$("#resultats").append(tbl);
+for(var i=0;i<obj.length;i++)
+{
+
+    var tr="<tr>";
+    var td1="<td>"+obj[i]["name"]+"</td>";
+    var td2="<td>"+obj[i]["formatted_address"]+"</td>";
+    var td3="<td>"+obj[i]["formatted_phone_number"]+"</td>";
+    var td4="<td>"+"Rating : "+obj[i]["rating"]+"</td>";
+    var td5="<td>"+obj[i]["website"]+"</td></tr>";
+
+   $("#mytable").append(tr+td1+td2+td3+td4+td5);
+
+}
