@@ -53,7 +53,8 @@ h2 {
 
 h4 {
 	color: #F96816;
-	line-height: 0;
+	margin-top:0px;
+	margin-bottom:10px;
 }
 
 #individuel {
@@ -63,15 +64,24 @@ h4 {
 }
 
 #place {
+	width:150px;
+}
+
+#icon {
+	padding-left:20px;
+	width:100px;
+}
+
+#heures{
 	width:350px;
 }
 
-#contact{
+#infos{
 	width:350px;
 }
 
 #rating{
-	width:200px;
+	width:80px;
 }
 
 /***first
