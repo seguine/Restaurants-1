@@ -2,7 +2,7 @@
 <head>
 	<meta charset="utf-8">
   <title>Le répertoire Miam Miam</title>
-	<link rel="stylesheet" href="page.css"/>
+	<link rel="stylesheet" href="main.css"/>
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="liste.json"></script>
 	<script src="render.js"></script>
@@ -17,7 +17,7 @@
 
                   var jssor_1_options = {
                     $AutoPlay: true,
-                    $SlideDuration: 800,
+                    $SlideDuration: 100,
                     $SlideEasing: $Jease$.$OutQuint,
                     $ArrowNavigatorOptions: {
                       $Class: $JssorArrowNavigator$
@@ -51,13 +51,14 @@
 
 <div id="jssor_1" id="A">
   <div data-u="slides" id="B">
-      <div><img data-u="image" class="sliderimg" src="img/slide1.jpg" /></div>
-      <div><img data-u="image" class="sliderimg" src="img/slide2.jpg" /></div>
-      <div><img data-u="image" class="sliderimg" src="img/slide3.jpg" /></div>
-      <div><img data-u="image" class="sliderimg" src="img/slide4.jpg" /></div>
-      <div><img data-u="image" class="sliderimg" src="img/slide5.jpg" /></div>
-      <div><img data-u="image" class="sliderimg" src="img/slide6.jpg" /></div>
-    </div>
+      <div><img data-u="image" class="sliderimg" src="img/slide11.png" /></div>
+      <div><img data-u="image" class="sliderimg" src="img/slide22.jpg" /></div>
+      <div><img data-u="image" class="sliderimg" src="img/slide33.jpg" /></div>
+      <div><img data-u="image" class="sliderimg" src="img/slide44.jpg" /></div>
+      <div><img data-u="image" class="sliderimg" src="img/slide55.jpg" /></div>
+      <div><img data-u="image" class="sliderimg" src="img/slide66.jpg" /></div>
+      <div><img data-u="image" class="sliderimg" src="img/slide77.jpg" /></div>
+	</div>
 </div>
 
 <img id="logo" src="img/miam.png" />
@@ -74,14 +75,12 @@
     <option value="catégorie2">Catégorie 2</option>
     <option value="catégorie3">Catégorie 3</option>
   </select>
-
   <select>
     <option value="all_categories">Toutes les catégories</option>
     <option value="catégorie1">Catégorie 1</option>
     <option value="catégorie2">Catégorie 2</option>
     <option value="catégorie3">Catégorie 3</option>
   </select>
-
   <select>
     <option value="all_categories">Trier par Rating</option>
     <option value="catégorie1">Catégorie 1</option>
@@ -96,58 +95,9 @@
 <!-- FIN NAVIGATION -->
 
 <!-- DÉBUT RESTOS -->
-
-<!--template
-	<table class="resto">
-    <tr>
-      <td><img class="profile" src="img/resto1.jpg" /></td>
-      <td class="infos">
-          <h4>NomDuRestaurant</h4>
-          ### NomDeRue
-          <br>Ville, Province
-          <br>###-###-####
-          <h4>www.siteweb.com</h4>
-      </td>
-      <td class="heures">
-          Lundi : 16h00 - 22:00
-          <br>Mardi : 16h00 - 22:00
-          <br>Mercredi : 16h00 - 22:00
-          <br>Jeudi : 16h00 - 22:00
-          <br>Vendredi : 16h00 - 22:00
-          <br>Samedi : 16h00 - 22:00
-          <br>Dimanche : 16h00 - 22:00
-      </td>
-      <td><img  class="map" src="static/img/map.png" /></td>
-    </tr>
-  </table>
-  <table class="resto">
-    <tr>
-      <td><img class="profile" src="img/resto1.jpg" /></td>
-      <td class="infos">
-          <h4>NomDuRestaurant</h4>
-          ### NomDeRue
-          <br>Ville, Province
-          <br>###-###-####
-          <h4>www.siteweb.com</h4>
-      </td>
-      <td class="heures">
-          Lundi : 16h00 - 22:00
-          <br>Mardi : 16h00 - 22:00
-          <br>Mercredi : 16h00 - 22:00
-          <br>Jeudi : 16h00 - 22:00
-          <br>Vendredi : 16h00 - 22:00
-          <br>Samedi : 16h00 - 22:00
-          <br>Dimanche : 16h00 - 22:00
-      </td>
-      <td><img  class="map" src="static/img/map.png" /></td>
-    </tr>
-  </table>
--->
-
 <div class="resultat"></div>
-<!--<br><br><div id="resultats">-->
-</div>
 <!-- FIN RESTOS -->
+</div>
 
 <!-- DÉBUT FOOTER -->
 <div id="footer">

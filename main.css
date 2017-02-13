@@ -15,10 +15,6 @@ body {
   margin:0 auto;
   top:0px;
   left:0px;
-  width:1300px;
-  height:250px;
-  overflow:hidden;
-  visibility:hidden;
 }
 
 #B {
@@ -28,6 +24,10 @@ body {
   width:1300px;
   height:250px;
   overflow:hidden;
+}
+
+.sliderimg {
+	width:auto;
 }
 
 
@@ -48,6 +48,7 @@ h2 {
 .resultat {
 	margin: auto;
 	width:900px;
+	height:auto;
 	text-align: center;
 }
 
@@ -83,46 +84,6 @@ h4 {
 #rating{
 	width:80px;
 }
-
-/***first
-#mytable {
-	margin: auto;
-	width:900px;
-	background-color:rgba(255,191,0, 0.3);
-}
-
-#mytable td{
-  border:1px solid blue;
-}
-
-#nom {
-	font-weight: bold;
-} */
-
-		/***template
-		.resto {
-			margin: auto;
-			margin-top:10px;
-			padding: 5px;
-			background-color:rgba(255,191,0, 0.3);
-		}
-
-		.profile {
-			height:160px;
-		}
-
-		.infos {
-			width:200px;
-			padding-left: 30px;
-		}
-
-		.heures {
-			width:200px;
-		}
-
-		.map {
-			height:160px;
-		}*/
 
 /**** FOOTER ****/
 #footer {
