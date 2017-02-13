@@ -45,7 +45,7 @@ h2 {
 }
 
 /**** RESULTATS ****/
-.resultat {
+#resultat {
 	margin: auto;
 	width:900px;
 	height:auto;

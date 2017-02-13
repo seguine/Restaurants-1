@@ -12,7 +12,7 @@ var render = function() {
                 liste[i].address_components[6].long_name+', '+
                 liste[i].address_components[7].long_name+'<br/>'+
                 liste[i].formatted_phone_number+'<br/>'+
-            '<a href="'+liste[i].website+'" target="_blank">'+'Site web'+'</a>'+'</td>'+
+                '<a href="'+liste[i].website+'" target="_blank">'+'Site web'+'</a>'+'</td>'+
             '<td id="heures">'+liste[i].opening_hours.weekday_text[0]+'<br/>'+
                 liste[i].opening_hours.weekday_text[1]+'<br/>'+
                 liste[i].opening_hours.weekday_text[2]+'<br/>'+

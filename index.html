@@ -5,7 +5,8 @@
 	<link rel="stylesheet" href="main.css"/>
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="liste.json"></script>
-	<script src="render.js"></script>
+	<script src="sorting.js"></script>
+	<!--script src="render.js"></script-->
 </head>
 
 <body>
@@ -66,38 +67,21 @@
 
 <!-- DÉBUT NAVIGATION -->
 <div id="navig">
-
   <h2>Que cherchez vous?</h2>
-
-  <select>
-    <option value="all_categories">Toutes les catégories</option>
-    <option value="catégorie1">Catégorie 1</option>
-    <option value="catégorie2">Catégorie 2</option>
-    <option value="catégorie3">Catégorie 3</option>
-  </select>
-  <select>
-    <option value="all_categories">Toutes les catégories</option>
-    <option value="catégorie1">Catégorie 1</option>
-    <option value="catégorie2">Catégorie 2</option>
-    <option value="catégorie3">Catégorie 3</option>
-  </select>
-  <select>
-    <option value="all_categories">Trier par Rating</option>
-    <option value="catégorie1">Catégorie 1</option>
-    <option value="catégorie2">Catégorie 2</option>
-    <option value="catégorie3">Catégorie 3</option>
-		<option value="catégorie2">Catégorie 4</option>
-    <option value="catégorie3">Catégorie 5</option>
-  </select>
-
-<input id="search" type="text" name="search" style="color:#F96816" placeholder="En particulier..."/>
+	<div id="sorting">
+		<h4>Trier par ordre
+			<button id="name">Nom A-Z</button>
+			<button id="rating">Rating</button>
+		</h4>
+	</div>
 </div>
 <!-- FIN NAVIGATION -->
 
 <!-- DÉBUT RESTOS -->
-<div class="resultat"></div>
+<!--Premier essai : fonctionne avec render.js <div class="resultat"></div>
+***Attention, dans le css, il faut changer le "#" pour une "." -->
+<div id="resultat"></div>
 <!-- FIN RESTOS -->
-</div>
 
 <!-- DÉBUT FOOTER -->
 <div id="footer">
