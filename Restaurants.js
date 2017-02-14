@@ -1,5 +1,4 @@
-
-var liste = [
+var DATA = [
 
   {
     "address_components": [
@@ -58351,3 +58350,9 @@ var liste = [
     "website": "http://origintoronto.com/"
   }
 ]
+
+// for (i in data) {
+//     alert("hello");
+//     document.getElementById("tests").innerHTML += data.address_components[i].name + "<br>";
+//     document.getElementById("tests").innerHTML += data.address_components[i].adr_address + "<br>";
+// }
