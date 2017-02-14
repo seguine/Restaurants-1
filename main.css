@@ -1,0 +1,100 @@
+/**** PAGE PRINCIPALE ****/
+body {
+	background-color:beige;
+	height:100%;
+}
+
+/**** SLIDER ****/
+#logo {
+	position: absolute;
+	top:0;
+}
+
+#A {
+  position:fixed;
+  margin:0 auto;
+  top:0px;
+  left:0px;
+}
+
+#B {
+  cursor:default;
+  top:0px;
+  left:0px;
+  width:1300px;
+  height:250px;
+  overflow:hidden;
+}
+
+.sliderimg {
+	width:auto;
+}
+
+
+/**** RECHERCHE ****/
+#navig {
+	margin-top: 280px;
+	margin-bottom:25px;
+	text-align: center;
+}
+
+h2 {
+	color: #F96816;
+	font-size: 20pt;
+	font-family:fantasy;
+}
+
+/**** RESULTATS ****/
+#resultat {
+	margin: auto;
+	width:900px;
+	height:auto;
+	text-align: center;
+}
+
+h4 {
+	color: #F96816;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+#individuel {
+	margin-top:15px;
+	padding:10px;
+	background-color:rgba(255,191,0, 0.3);
+}
+
+#place {
+	width:150px;
+}
+
+#icon {
+	padding-left:20px;
+	width:100px;
+}
+
+#heures{
+	width:350px;
+}
+
+#infos{
+	width:350px;
+}
+
+#rating{
+	width:80px;
+}
+
+/**** FOOTER ****/
+#footer {
+	position:relative;
+	bottom:0;
+	margin-top:20px;
+	width:100%;
+	background-color: #F96816;
+	height:3vw;
+	color:white;
+	padding-top:1.5%;
+	padding-bottom:0.5%;
+	text-align:center;
+	}
