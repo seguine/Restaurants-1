@@ -7,7 +7,7 @@
 	<script src="liste.json"></script>
 	<script src="Restaurants.js"></script>
 	<script src="sorting.js"></script>
-	<!--script src="render.js"></script-->
+	<script src="render.js"></script>
 </head>
 
 <body>
@@ -33,14 +33,6 @@
 <!-- Zone pour tests seulement -->
 	<p id="tests"></p>
 	<script>
-
-			document.getElementById("tests").innerHTML = "tests";
-			for (i in DATA) {
-					document.getElementById("tests").innerHTML += DATA.address_components[i].name[0] + "<br>";
-					//L'adresse ici est retourné formaté en HTML
-					document.getElementById("tests").innerHTML += DATA.address_components[i].adr_address[0] + "<br>";
-				}
-
 	</script>
   <h2>Que cherchez vous?</h2>
 	<div id="sorting">
@@ -69,6 +61,10 @@ Projet #1 © 2017 Technologies internet
 
 <!-- POUR RESTOS -->
 <script>render();</script>
+<!--ici tentative d'ajouter les commentaires pour chaque restaurents.
+pas en mesure d'accèder aux champs de "reviews"-->
+<script>()showC();</script>
+
 
 </body>
 </html>
