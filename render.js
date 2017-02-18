@@ -50,8 +50,8 @@
             };
 
 var showComments = function showHide() {
-                var x = document.getElementByClassName('comment');
-                for (var i in x){
+                var x = document.getElementsByClassName('comment'),i;
+                for (i in x){
                   if (x[i].style.display === 'none') {
                       x[i].style.display = 'block';
                   } else {
