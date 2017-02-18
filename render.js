@@ -1,4 +1,6 @@
           var showC = function showComments () {
+            //Réinitilise l'élèment résultat
+            $('#resultat').empty();
             for (var i in liste){
               //déclare une variable string
                 var str = '<table id="individuel"><tr>'
@@ -26,12 +28,18 @@
                   $('#resultat').append(str);
 
                   for (var j in liste[i].reviews){
+                    //cette opération permet de formater l'heure du commentaire
+                    var heure;
+                    var date = new Date(liste[i].reviews[j].time);
+                    if (date.getMinutes()<10){
+                      heure = date.getHours()+":"+"0"+date.getMinutes();
+                    } else {
+                      heure = date.getHours()+":"+date.getMinutes();
+                    }
+
                       var comstr = '<table id="comment"><tr>'+
                       '<td id ="auteur"><h4>'+liste[i].reviews[j].author_name+'</h4></td>'+
-                      '<td id="comment_time">'+
-                      new Date(liste[i].reviews[j].time).getHours()+'h'+
-                      new Date(liste[i].reviews[j].time).getMinutes()+
-                      '</td></tr>'+
+                      '<td id="comment_time">'+ heure + '</td></tr>'+
                       '<tr><td id="comment_text"><h4>Commentaire</h4>'+liste[i].reviews[j].text+'</td></tr>'+
                       '<tr><td id="visit"><h4>Visite</h4>'+liste[i].reviews[j].relative_time_description+'</td>'+
                       '</tr></table>';
@@ -40,3 +48,12 @@
                     }
                 }
             };
+
+var showComments = function showHide() {
+                var x = document.getElementById('comment');
+                if (x.style.display === 'none') {
+                    x.style.display = 'block';
+                } else {
+                    x.style.display = 'none';
+                }
+            }
