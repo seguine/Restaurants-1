@@ -37,7 +37,7 @@
                       heure = date.getHours()+":"+date.getMinutes();
                     }
 
-                      var comstr = '<table id="comment"><tr>'+
+                      var comstr = '<table class="comment"><tr>'+
                       '<td id ="auteur"><h4>'+liste[i].reviews[j].author_name+'</h4></td>'+
                       '<td id="comment_time">'+ heure + '</td></tr>'+
                       '<tr><td id="comment_text"><h4>Commentaire</h4>'+liste[i].reviews[j].text+'</td></tr>'+
@@ -50,10 +50,12 @@
             };
 
 var showComments = function showHide() {
-                var x = document.getElementById('comment');
-                if (x.style.display === 'none') {
-                    x.style.display = 'block';
-                } else {
-                    x.style.display = 'none';
+                var x = document.getElementByClassName('comment');
+                for (var i in x){
+                  if (x[i].style.display === 'none') {
+                      x[i].style.display = 'block';
+                  } else {
+                      x[i].style.display = 'none';
+                  }
                 }
             }
