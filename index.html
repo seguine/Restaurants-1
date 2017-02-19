@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="main.css"/>
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 	<script src="liste.json"></script>
-	<script src="Restaurants.js"></script>
 	<script src="sorting.js"></script>
 	<script src="render.js"></script>
 </head>
@@ -15,7 +14,7 @@
 <!-- DÉBUT SLIDER -->
 	<div id='slider'>
 		<ul>
-			<li id="skeleton"><img src="slide1.png"></li>
+			<li id="skeleton"><img src="img/slide1.jpg"></li>
 			<li class='num0 slide'><img src='img/slide1.jpg' /></li>
 			<li class='num1 slide'><img src='img/slide2.jpg' /></li>
 			<li class='num2 slide'><img src='img/slide3.jpg' /></li>
@@ -34,8 +33,8 @@
   <h2>Que cherchez vous?</h2>
 	<div id="sorting">
 		<h4>Trier par ordre
-			<button id="name">Nom A-Z</button>
-			<button id="rating">Rating</button>
+			<button id="name" onclick="sortResults('name')">Nom A-Z</button>
+			<button id="rating" onclick="sortResults('rating')">Rating</button>
 		</h4>
 		<h4>Cacher/afficher les commentaires
 			<button id="dispCom" onclick="showComments()">Cacher/Afficher</button>

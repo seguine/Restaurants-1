@@ -2,7 +2,14 @@
             //Réinitilise l'élèment résultat
             $('#resultat').empty();
             for (var i in liste){
-              //déclare une variable string
+              //Attrappe les erreurs quand le le restautant n'a pas une des propriétés
+              try{
+                //Donne un rating de 0 au restaurant qui n'ont pas de rating
+                var rating = 0
+                if ('rating' in liste[i]) {
+                  rating = liste[i].rating
+                }
+                //déclare une variable string
                 var str = '<table id="individuel"><tr>'
                     +'<td id="place">'+'<img src="http://maps.googleapis.com/maps/api/staticmap?center=' + liste[i].geometry.location.lat + ',' + liste[i].geometry.location.lng + '&zoom=14&size=150x150&markers=color:tangerine|size:lrg|label:A|' + liste[i].geometry.location.lat + ',' + liste[i].geometry.location.lng + '&sensor=false" />' +'</td>'
                     +'<td id="icon">'+'<img src='+liste[i].icon+' width="64" height="48"/>'+'</td>'
@@ -22,11 +29,11 @@
                             liste[i].opening_hours.weekday_text[4]+'<br/>'+
                             liste[i].opening_hours.weekday_text[5]+'<br/>'+
                             liste[i].opening_hours.weekday_text[6]+'</td>'+
-                        '<td id="rating">'+'<img src="img/star.png" height="35px" /><br/>'+liste[i].rating+'</td>'+
+                        '<td id="rating">'+'<img src="img/star.png" height="35px" /><br/>'+rating+'</td>'+
                   '</tr></table>';
-
+                }catch (e) {}
                   $('#resultat').append(str);
-
+                  if (comments){ 
                   for (var j in liste[i].reviews){
                     //cette opération permet de formater l'heure du commentaire
                     var heure;
@@ -46,16 +53,11 @@
 
                       $('#resultat').append(comstr);
                     }
-                }
+                  }}
             };
-
-var showComments = function showHide() {
-                var x = document.getElementsByClassName('comment'),i;
-                for (i in x){
-                  if (x[i].style.display === 'none') {
-                      x[i].style.display = 'block';
-                  } else {
-                      x[i].style.display = 'none';
-                  }
-                }
-            }
+//variable global pour afficher ou non les commentaires
+var comments = true;
+function showComments() {
+  comments = !comments;
+  showC();
+}
